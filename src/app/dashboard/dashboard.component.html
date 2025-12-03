@@ -1,0 +1,41 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Members</mat-card-title>
+  <mat-card-subtitle>{{ Nb_Members }}</mat-card-subtitle>
+</mat-card>
+
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Events</mat-card-title>
+  <mat-card-subtitle>{{ Nb_Events }}</mat-card-subtitle>
+</mat-card>
+
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Tools</mat-card-title>
+  <mat-card-subtitle>{{ Nb_Tools }}</mat-card-subtitle>
+</mat-card>
+
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-title>Articles</mat-card-title>
+  <mat-card-subtitle>{{ Nb_Pub }}</mat-card-subtitle>
+</mat-card>
+
+<div class="chart-wrapper">
+  <canvas
+    baseChart
+    [type]="'line'"
+    [datasets]="chartDataLine"
+    [labels]="chartLabelsLine"
+    [options]="chartOptions"
+  >
+  </canvas>
+</div>
+
+<div class="chart-wrapper">
+  <canvas
+    baseChart
+    [type]="'pie'"
+    [datasets]="chartDataPie"
+    [labels]="chartLabelsPie"
+    [options]="chartOptions"
+  >
+  </canvas>
+</div>

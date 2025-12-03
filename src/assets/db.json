@@ -1,0 +1,49 @@
+{
+  "member": [
+    {
+      "cin": "ssff",
+      "name": "df",
+      "type": "teacher",
+      "cv": "d",
+      "createdDate": "d",
+      "id": "28bd",
+      "tab_Events":["1245","123654"]
+    },
+    {
+      "cin": "ssff",
+      "name": "df",
+      "type": "student",
+      "cv": "d",
+      "createdDate": "d",
+      "id": "bdf9",
+      "tab_Events":["1245","123654"]
+    },
+    {
+      "id": "55af",
+      "cin": "ssff",
+      "name": "df",
+      "type": "studen",
+      "cv": "d",
+      "createdDate": "d",
+      "tab_Events":["1245","123654"]
+    }
+  ],
+
+  "events":[
+  {
+    "id": "1",
+    "titre": "Conférence IA et Innovation",
+    "dateDebut": "2025-01-15",
+    "dateFin": "2025-01-17",
+    "lien": "https://conference-ia.com"
+  },
+  {
+    "id": "2",
+    "titre": "Workshop DevSecOps",
+    "dateDebut": "2025-03-10",
+    "dateFin": "2025-03-11",
+    "lien": "https://workshop-devsecops.com"
+  }
+]
+
+}
