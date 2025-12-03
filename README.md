@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
@@ -25,3 +26,49 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Microservices Application – Angular + Spring Boot
+
+Ce dépôt contient une application basée sur une architecture **microservices**, divisée en deux parties principales :
+
+- **Frontend → Angular**
+- **Backend → Spring Boot**
+
+
+##  Lancer le backend (Spring Boot)
+
+### 1. Prérequis
+- Java 17+
+- Maven 3+
+- Spring Boot
+
+Par défaut, l’API démarre sur :  
+`http://localhost:8080`
+
+
+## Lancer le frontend (Angular)
+
+### 1. Prérequis
+- Node.js (LTS)
+- Angular CLI
+
+### 2. Installation & run
+```
+npm install
+npm run json-server 
+ng serve 
+```
+
+L’interface démarre sur :  
+`http://localhost:4200`
+
+
+## Déploiement
+
+Les deux services peuvent être déployés séparément :
+
+- **Frontend** : 
+- **Backend** : 
+
+
+>>>>>>> 1fb022a90b2a7217068a72704616782d855a7735
